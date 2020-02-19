@@ -1,0 +1,23 @@
+{
+  "name": "rktracker.github.io",
+  "version": "1.0.0",
+  "description": "app for behavior tracking",
+  "main": "index.js",
+  "repository": "https://github.com/lkaina/rktracker.github.io.git",
+  "author": "Leighton Kaina <leighton.kaina@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "rebass": "^4.0.7",
+    "serve": "^11.3.0",
+    "webpack": "^4.41.6"
+  },
+  "scripts": {
+    "watch": "webpack -d --watch",
+    "build": "webpack",
+    "serve": "serve ./public"
+  }
+}
